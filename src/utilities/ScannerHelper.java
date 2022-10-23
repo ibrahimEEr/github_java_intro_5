@@ -73,7 +73,13 @@ public class ScannerHelper {
     }
 
 
+    public static int getANumber(){
+        System.out.println("Please enter an number:");
+        int num = input.nextInt();
+        input.nextLine();
 
+        return num;
+    }
 
 
 

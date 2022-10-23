@@ -1,21 +1,22 @@
 package projects;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Test{
 
     public static void main(String[] args) {
 
+        String[] myFavCars = {"opel", "toyota", "Lexus", "Ferarri"};
 
-    Scanner scan = new Scanner(System.in);
+        System.out.println(myFavCars[2]);
 
-    System.out.println("What is your name?");
+        myFavCars[2] = "Honda";
+        System.out.println(Arrays.toString(myFavCars));
 
-    String fName = scan.nextLine();
 
-	System.out.println("How old are you?");
-
-    int age = scan.nextInt();
+        System.out.println(myFavCars.length);
+        System.out.println(myFavCars[3]);
 
 
     }

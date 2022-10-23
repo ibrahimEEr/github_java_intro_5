@@ -14,7 +14,7 @@ public class _10_substring_Method {
            -it is overloaded and takes either one or 2 int index arguments
          */
 
-                String s = "TechGlobal";
+                String s = "Techstrlobal";
 
         //Get "Global"
                 String s1 = s.substring(4); // from index 4 to the end
