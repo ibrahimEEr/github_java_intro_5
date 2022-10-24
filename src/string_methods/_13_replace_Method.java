@@ -16,7 +16,7 @@ public class _13_replace_Method {
             System.out.println(s1); // Can I xan a xan
 
 
-            System.out.println(s.replace("can", "xxx")); // Can I xxx a xxx
+          //  System.out.println(s.replace("can", "xxx")); // Can I xxx a xxx
             System.out.println(s.toLowerCase().replace("can", "xxx")); // xxx i xxx a xxx
 
 
