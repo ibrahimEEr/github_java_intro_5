@@ -5,26 +5,19 @@ import java.util.Arrays;
 public class _03_doubleArray_ForEachLoop {
     public static void main(String[] args) {
 
-//        double[] numbers = {5.5, 6, 10.3, 25};
-//       // System.out.print(Arrays.toString(numbers));
-//
-//
-//       for (double number : numbers) {
-//           System.out.print(number);
+        // 1. create an array to store -> 5.5, 6, 10.3, 25
+        double[] numbers = {5.5, 6, 10.3, 25};
 
+        // 2. Print the array -> [5.5, 6.0, 10.3, 25.0]
+        System.out.println(Arrays.toString(numbers));
 
-       String[] colors = {"blue", "green", "yellow", "pink"};
-        System.out.println(Arrays.toString(colors));
+        // 3. Print the size of the array -> 4
+        System.out.println(numbers.length);
 
-        System.out.println(colors.length);
-
-        System.out.println(colors[3]);
-
-        for (String color : colors) {
-            System.out.println(color);
+        System.out.println("\n--------for-each loop-------\n");
+        for (double number : numbers) {
+            System.out.println(number);
         }
-
-
 
     }
 }
