@@ -12,12 +12,8 @@ public class _16_split_Method {
          */
 
 
-        String s = "Today is Sunday and the weather is nice";
+        String s = "Hello World";
 
-        String[] arr1 = s.split(" "); //[Today, is, Sunday, and, the, weather, is, nice]
-
-        System.out.println(Arrays.toString(arr1));
-
-        System.out.println(Arrays.toString(s.split("is")));
+        System.out.println(s.split(" "));
     }
 }

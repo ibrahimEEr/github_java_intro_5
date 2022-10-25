@@ -12,7 +12,7 @@ public class TwoDimensionalArrays {
                 {"Abdallah", "Newer"}
 
         };
-//        System.out.println(students[1][1]);
+         System.out.println(students[1][1]);
 
         for (String[] group : students) {
             for (String student : group) {
