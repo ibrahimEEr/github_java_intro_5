@@ -60,7 +60,7 @@ public class Homework06 {
         Arrays.sort(catNames);
         System.out.println(Arrays.toString(catNames));
 
-        if(Arrays.toString(catNames).contains("Felix") && Arrays.toString(catNames).contains("Garfield"))
+        if(Arrays.toString(catNames).equals("Felix") && Arrays.toString(catNames).equals("Garfield"))
             System.out.println("true");
         else System.out.println("false");
 
@@ -109,7 +109,6 @@ public class Homework06 {
         int counter3 = 0;
         int counter4 = 0;
 
-
         for (String object : objects) {
 
             if(Character.isUpperCase(object.charAt(0))) counter1++;
@@ -151,7 +150,8 @@ public class Homework06 {
         int[] thirdArray = new int[5];
 
         for (int i = 0; i <firstArray.length; i++) {
-            if(firstArray[i] > secondArray[i]) thirdArray[i] = firstArray[i];
+            if(firstArray[i] > secondArray[i])  thirdArray[i] = firstArray[i];
+
             else thirdArray[i] = secondArray[i];
         }
 

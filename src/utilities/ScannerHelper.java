@@ -11,7 +11,7 @@ public class ScannerHelper {
     Create a method that asks user to enter a name and RETURN it
      */
 
-    public static String getAName(){
+    public static String getAName() {
         System.out.println("Please enter a name:");
         String name = input.nextLine();
 
@@ -23,7 +23,7 @@ public class ScannerHelper {
     Create a method that asks user to enter an age and RETURN it
      */
 
-    public static int getAnAge(){
+    public static int getAnAge() {
         System.out.println("Please enter an age:");
         int age = input.nextInt();
         input.nextLine();
@@ -35,7 +35,7 @@ public class ScannerHelper {
     Create a method that asks user to enter an address and RETURN it
      */
 
-    public static String getAnAddress(){
+    public static String getAnAddress() {
         System.out.println("Please enter an address:");
         String address = input.nextLine();
 
@@ -52,7 +52,7 @@ public class ScannerHelper {
     }
 
 
-    public static int getFavNo(){
+    public static int getFavNo() {
         System.out.println("Hey user, please enter your favorite number ");
         int favorNum = input.nextInt();
         input.nextLine();
@@ -60,20 +60,20 @@ public class ScannerHelper {
         return favorNum;
     }
 
-    public static String getAString(){
+    public static String getAString() {
         System.out.println("Please enter a String");
         return input.nextLine();
     }
 
 
-    public static String getFavColors(){
+    public static String getFavColors() {
         System.out.println("Please enter your favorite colors");
         return input.nextLine();
 
     }
 
 
-    public static int getANumber(){
+    public static int getANumber() {
         System.out.println("Please enter an number:");
         int num = input.nextInt();
         input.nextLine();
@@ -82,17 +82,7 @@ public class ScannerHelper {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 
