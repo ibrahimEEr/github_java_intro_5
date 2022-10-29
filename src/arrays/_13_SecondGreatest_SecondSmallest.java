@@ -52,7 +52,8 @@ public class _13_SecondGreatest_SecondSmallest {
 
     public static void printMaxMinSecondMaxAndMin(int[] numbers){
 
-        int secondMax = Integer.MIN_VALUE, secondMin = Integer.MAX_VALUE;
+        int secondMax = Integer.MIN_VALUE;
+        int secondMin = Integer.MAX_VALUE;
 
         for (int n : numbers) {
             if (n > secondMax && n < findMax(numbers)){
