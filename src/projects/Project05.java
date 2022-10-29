@@ -6,7 +6,7 @@ public class Project05 {
     public static void main(String[] args) {
 
 
-        System.out.println("---------------TASK 1----------------\n");
+        System.out.println("---------------TASK 1!!!----------------\n");
         int[] numbers = {10, 7, 7, 10 - 3, 10, -3};
         findGreatestAndSmallestWithSort(numbers);
 
