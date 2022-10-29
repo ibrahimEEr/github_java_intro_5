@@ -86,7 +86,7 @@ public class Project05 {
 //                    }
 //
 //
-//                          Dogru gidiyor yarin devam _13_ de cevap var
+//                          Dogru gidiyor yarin devam _13_ de cevap var. 2.ekleme
 //
 //                 }
 
