@@ -45,10 +45,21 @@ public class _02_StringArrayList {
         //Task - 4
         cities.add("New York");
         cities.add("Rome");
-        cities.add("Gent");
+        cities.add("Ghent");
 
         System.out.println(cities);
         System.out.println(cities.size());
+
+
+
+        cities.clear();
+        System.out.println(cities);
+        System.out.println(cities.size());
+
+
+
+
+
 
 
     }
