@@ -172,7 +172,6 @@ public class Homework07 {
         System.out.println("Elements starting or ending with P or p = " +startsEndsPCount);
 
 
-
         System.out.println("\n--------- Task 10 ------------\n");
 
         ArrayList<Integer> numbers10 = new ArrayList<>();
@@ -193,8 +192,6 @@ public class Homework07 {
         int over15Counter = 0;
         int less20Counter = 0;
         int less15Over50 = 0;
-
-
 
         for (Integer number : numbers10) {
             if(number % 10 == 0)  counter10++;
