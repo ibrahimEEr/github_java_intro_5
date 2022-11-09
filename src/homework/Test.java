@@ -1,5 +1,7 @@
 package homework;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Test {
@@ -20,6 +22,14 @@ public class Test {
             numTwo = total;
 
         }
+
+
+//        String s = "Merhaba";
+//        String rev = "";
+//        for (int i = s.length() -1 ; i >= 0 ; i--) {
+//            rev = rev + s.charAt(i);
+//        }
+//        System.out.println(rev);
 
 
     }

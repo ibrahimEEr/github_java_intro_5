@@ -200,6 +200,7 @@ public class Homework07 {
             if(number < 15 || number > 50) less15Over50++;
         }
 
+
         System.out.println(numbers10);
         System.out.println("Elements that can be divided by 10 = " + counter10);
         System.out.println("Elements that are even and greater than 15 = " + over15Counter);

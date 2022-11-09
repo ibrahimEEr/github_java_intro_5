@@ -129,20 +129,19 @@ public class Project05 {
 
                     //TASK-5
 
-    public static void findDuplicatedElementsInAnArray(String[] words) {
-
+    public static void findDuplicatedElementsInAnArray(String[] strings) {
         String duplicate = "";
-        int j;
+        if (strings.length > 1) {
+            for (int i = 0; i < strings.length; i++) {
+                for (int j = i + 1; j < strings.length; j++) {
 
-
-        for (int i = 0; i < words.length - 1; i++) {
-            for (j = i + 1; j < words.length; j++) {
-                if ((words[i].equals(words[j])) && (i != j)) {
-                    duplicate = words[j];
+                    if (strings[i].equals(strings[j]) && !duplicate.contains(strings[i] + "")) {
+                        duplicate += strings[i];
+                        System.out.println(strings[i]);
+                    }
                 }
             }
         }
-        System.out.println(duplicate);
     }
 
                      //TASK-6
