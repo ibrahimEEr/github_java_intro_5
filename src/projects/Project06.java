@@ -9,7 +9,7 @@ public class Project06 {
 
     public static void main(String[] args) {
         System.out.println("------------Task1--------------\n");
-        String[] stringArray1 = {"", "", "", "cabbar", ""};
+        String[] stringArray1 = {"", "", "", "", ""};
         System.out.println(task1(stringArray1));
 
         System.out.println("\n------------Task2--------------\n");
