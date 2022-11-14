@@ -7,6 +7,8 @@ import java.util.regex.Pattern;
 
 public class PatternClass {
     public static void main(String[] args) {
+        System.out.println(Pattern.matches("\\([0-9]{3}\\)-[0-9]{3}-[0-9]{4}", "(417)-239-9859"));
+
         Pattern pattern = Pattern.compile("[a-z0-9]{5,10}");
 
         System.out.println(pattern); //returns the pattern
