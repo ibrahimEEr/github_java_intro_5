@@ -68,7 +68,7 @@ public class Homework08 {
 
 
             int counter = 0;
-              String pattern = "^.{0,50}$";
+              String pattern = "^.{0,2}$";
             if (str4.matches(pattern)) {
                 counter++;
             }
