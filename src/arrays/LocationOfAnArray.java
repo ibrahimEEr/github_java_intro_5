@@ -12,6 +12,6 @@ public class LocationOfAnArray {
 
         numbers = new int[10];
         System.out.println(numbers);
-        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(numbers).toCharArray());
     }
 }
