@@ -31,12 +31,12 @@ public class Homework12 {
         System.out.println(Arrays.toString(no13(numbers)));
 
         System.out.println("-----------Task 7-------------");
-        int[] numbersTask7 = {13, 322, 22, 13, 13, 33, 16};
+        int[] numbersTask7 = {0,1, 2, 3, 4};
+        System.out.println(Arrays.toString(arrFactorial(numbersTask7)));
 
+        System.out.println("-----------Task 8-------------");
 
-        System.out.println(factorial(5));
-
-
+        System.out.println(Arrays.toString(categorizeCharacters("abc123$#%")));
     }
 
 
@@ -67,6 +67,7 @@ public class Homework12 {
         return str.replaceAll("[aeiouAEIUO]", "");
     }
 
+
     // Task-3
     public static int sumOfDigits(String str) {
 
@@ -80,7 +81,8 @@ public class Homework12 {
         return result;
     }
 
-    // Task-4
+
+    //Task-4
     public static boolean hasUpperCase(String str) {
 
         boolean answer = false;
@@ -91,6 +93,7 @@ public class Homework12 {
         return answer;
     }
 
+
     // Task-5
     public static int middleInt(int a, int b, int c) {
         int[] middle = {a, b, c};
@@ -98,33 +101,59 @@ public class Homework12 {
         return middle[1];
     }
 
+
     // Task-6
     public static Object[] no13(int[] numbers) {
 
         ArrayList<Integer> result = new ArrayList<>();
 
         for (int number : numbers) {
-            if(number != 13) result.add(number);
+            if (number != 13) result.add(number);
         }
         return result.toArray();
     }
 
+
     //Task-7
-    public static void arrFactorial(int[] numbersTask7){
-
-    }
-
-
-        static int factorial(int n){
-            if (n == 0) return 1;
-            return n * factorial(n-1);
+    public static int factorial(int n) {
+        int f = 1;
+        for (int i = 1; i <= n; i++) {
+            f *= i;
         }
+        return f;
+    }
 
+    public static int[] arrFactorial(int[] numbersTask7) {
 
+        int newNumber = 1;
+        for (int i = 0; i < numbersTask7.length; i++) {
+
+            if(i < 2) {
+            }
+            else{
+                newNumber = factorial(numbersTask7[i]);
+            }
+            numbersTask7[i] = newNumber;
+        }
+        return numbersTask7;
     }
 
 
+    //Task-8
+    public static String[] categorizeCharacters(String str){
 
 
+        String[] arrOfStr = str.split("1");
+
+
+        for (int i = 0; i < str.length() ; i++) {
+            if(Character.isDigit(str.charAt(i))) arrOfStr = str.split("1");
+
+        }
+        return arrOfStr;
+
+    }
+
+}
 
 
