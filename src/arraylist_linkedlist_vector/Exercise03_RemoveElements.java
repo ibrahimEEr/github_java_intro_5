@@ -24,7 +24,7 @@ public class Exercise03_RemoveElements {
         for (String language : languages) { // ConcurrentModificationException
             if(language.startsWith("J")) languages.remove(language);
         }
-         */
+       */
 
         /*
         for (int i = 0; i < languages.size(); i++) {
