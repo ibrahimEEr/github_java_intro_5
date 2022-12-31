@@ -27,7 +27,7 @@ public class _01_Lists {
 
 
 
-        System.out.println(fruits); //
+        System.out.println(fruits);
 
         fruits.clear();
 
