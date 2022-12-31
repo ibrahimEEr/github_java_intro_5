@@ -63,9 +63,7 @@ public class Homework13 {
         }
 
         return task2;
-
     }
-
 
     // Task3
     public static int[][] numberAndSquare(int[] nums) {
