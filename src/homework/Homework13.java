@@ -24,7 +24,6 @@ public class Homework13 {
         String search = "hello";
         System.out.println(containsValue(arrTask4, search));
 
-
         System.out.println("\n----------Task5----------\n");
         String sentence = "This is a sentence";
         System.out.println(reverseSentence(sentence));
