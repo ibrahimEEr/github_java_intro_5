@@ -2,6 +2,7 @@ package homework;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Homework13 {
     public static void main(String[] args) {
@@ -17,6 +18,12 @@ public class Homework13 {
         System.out.println("\n----------Task3----------\n");
         int[] nums = {1, 2, 3};
         System.out.println(Arrays.deepToString(numberAndSquare(nums)));
+
+        System.out.println("\n----------Task4----------\n");
+        String[] arrTask4 = {"abc", "foo", "java", "hello"};
+        String search = "hello";
+        System.out.println(containsValue(arrTask4, search));
+
 
         System.out.println("\n----------Task5----------\n");
         String sentence = "This is a sentence";
@@ -55,16 +62,8 @@ public class Homework13 {
             while(task2.contains(0)) task2.remove(integer);
         }
 
-
-
         return task2;
 
-
-//        for (Integer integer : task2) {
-//             if(integer == 0) task2.remove(integer);
-//             break;
-//        }
-//        return task2;
     }
 
 
@@ -77,6 +76,18 @@ public class Homework13 {
             numsSquare[i][1] = nums[i] * nums[i];
         }
         return numsSquare;
+    }
+
+    //Task4
+    public static boolean containsValue(String[] arr, String search){
+
+        Arrays.sort(arr);
+
+        for (String s : arr) {
+           if(s.equals(search)) return true;
+
+        }
+        return false;
     }
 
 
