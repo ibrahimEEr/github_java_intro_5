@@ -8,7 +8,6 @@ public class _01_UnderstandingArrayList {
 
         //1. Declaring an array vs an ArrayList
         String[] names1 = new String[3];
-
         ArrayList<String> names2 = new ArrayList<>(); // capacity = 10 by default
 
         //2. Getting the size of the array vs ArrayList
