@@ -55,6 +55,7 @@ public class Homework13 {
             return false;
         }
 
+
     //Task2
     public static ArrayList<Integer> noZero(ArrayList<Integer> task2){
 
@@ -89,7 +90,6 @@ public class Homework13 {
         }
         return false;
     }
-
 
 
     //Task5
@@ -149,11 +149,6 @@ public class Homework13 {
         }
         return list;
     }
-
-
-
-
-
 
 }
 
